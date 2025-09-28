@@ -2,18 +2,26 @@
 
 ## Overview
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="magic.png" width="300" /><br>
-      <b>MAGIC LAYOUT</b>
-    </td>
-    <td align="center">
-      <img src="ngspice.png" width="300" /><br>
-      <b>NGSPICE PLOT</b>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="magic.png" width="300" /><br>
+        <b>MAGIC LAYOUT</b>
+      </td>
+      <td align="center">
+        <img src="ngspice.png" width="300" /><br>
+        <b>NGSPICE PLOT</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<div align="center">
+  <img src="3d.png" alt="3d view of CMOS inverter">
+  <p>3d view of CMOS inverter</p>
+</div>
 
 
 This repository documents the design of a **CMOS inverter** using the **Magic VLSI layout editor** with the **SCMOS technology file**, followed by extraction and simulation using **ngspice**.
