@@ -1,12 +1,13 @@
-* SPICE3 file created from inverter.ext - technology: scmos
+* NGSPICE file created from inverter.ext - technology: scmos
 
-.option scale=1u
+.global Vdd Gnd 
 
-M1000 out in vdd vdd pfet w=10 l=3
-+  ad=110 pd=42 as=70 ps=34
-M1001 out in gnd_ Gnd nfet w=8 l=3
-+  ad=80 pd=36 as=56 ps=30
-C0 vdd in 2.10fF
-C1 gnd_ Gnd 4.89fF
-C2 out Gnd 3.57fF
-C3 in Gnd 8.54fF
+
+* Top level circuit inverter
+
+M1000 out in vdd vdd pfet w=10u l=3u
++  ad=110p pd=42u as=70p ps=34u
+M1001 out in gnd_ Gnd nfet w=8u l=3u
++  ad=80p pd=36u as=56p ps=30u
+.end
+
